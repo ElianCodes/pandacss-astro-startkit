@@ -1,47 +1,41 @@
-# Astro Starter Kit: Minimal
+# 🐼 x 🚀 Astro Starter Kit: PandaCSS
+
+Kickstart your journey with this stellar starter kit template, engineered to harness the power of [PandaCSS](https://panda-css.com/) alongside Astro. With its streamlined setup, it serves as the launchpad for your creativity, ready to be customized and tailored to your celestial preferences. Let's rocket your project to new heights! 🐼 x 🚀
 
 ```sh
-npm create astro@latest -- --template minimal
+# npm 6.x
+npx create astro@latest --template eliancodes/pandacss-astro-startkit
+
+# npm 7+
+npx create astro@latest -- --template eliancodes/pandacss-astro-startkit
+
+# pnpm
+pnpm dlx create-astro --template eliancodes/pandacss-astro-startkit
+
+# yarn
+yarn create astro --template eliancodes/pandacss-astro-startkit
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+## 🚀 Project Integrations
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+### PandaCSS
 
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
+This Astro Starter Kit template provides PandaCSS. Panda is a styling engine that generates styling primitives to author atomic CSS and recipes in a type-safe and readable manner. [PandaCSS](https://panda-css.com/)
 
 ## 🧞 Commands
 
 All commands are run from the root of the project, from a terminal:
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+| Command                   | Action                                                                              |
+| :------------------------ | :---------------------------------------------------------------------------------- |
+| `npm install`             | Installs dependencies                                                               |
+| `npm run panda codegen`   | Generate new CSS utilities for your project based on the PandaCSS configuration file. |
+| `npm run dev`             | Starts local dev server at `localhost:4321`                                         |
+| `npm run build`           | Build your production site to `./dist/`                                             |
+| `npm run preview`         | Preview your build locally, before deploying                                        |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check`                                    |
+| `npm run astro -- --help` | Get help using the Astro CLI                                                        |
 
-## 👀 Want to learn more?
+3..2..1! Blast off into the cosmos with this stellar starter kit template, for Astro and PandaCSS! 🐼 x 🚀
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+[@ElianCodes](https://github.com/ElianCodes) x [@Carwack](https://github.com/Carwack)
