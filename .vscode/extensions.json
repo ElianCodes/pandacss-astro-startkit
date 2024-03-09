@@ -1,0 +1,4 @@
+{
+  "recommendations": ["astro-build.astro-vscode", "chakra-ui.panda-css-vscode"],
+  "unwantedRecommendations": []
+}
