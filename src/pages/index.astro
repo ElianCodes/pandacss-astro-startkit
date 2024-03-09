@@ -1,11 +1,13 @@
 ---
 import Layout from '../layout/Default.astro'
-import { css } from '@styled-system/css';
-import { vstack } from '@styled-system/patterns';
+
+// CSS
+import { css } from '@styled-system/css'
+import { vstack } from '@styled-system/patterns'
 ---
 
 <Layout>
 	<div class={vstack({ height: "100svh", justifyContent: 'center', color: 'white'})}>
-		<h1 class={css({fontSize: '3rem'})}>Hello from <span class={css({color: 'purple.600', fontWeight: 'bold'})}>Astro</span> + <span class={css({color: 'yellow', fontWeight: 'bold'})}>PandaCSS</span></h1>
+		<h1 class={css({fontSize: '3rem'})}>Hello from <span class={css({color: 'purple.600', fontWeight: 'bold'})}>Astro</span> + <span class={css({color: 'yellow.300', fontWeight: 'bold'})}>PandaCSS</span></h1>
 	</div>
 </Layout>
